@@ -27,4 +27,10 @@
 .nav-link {
     text-decoration: none;
     color: white;
+    padding-top: 5px;
+}
+
+.nav-link:hover {
+    border-top: rgb(99, 0, 0) 2px solid;
+    line-height: 1.3;
 }
