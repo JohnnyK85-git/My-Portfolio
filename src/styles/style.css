@@ -1,3 +1,7 @@
+:root {
+    --primary-red: rgb(99, 0, 0);
+}
+
 body {
     text-align: center;
     font-family: 'Inconsolata', monospace;
@@ -36,7 +40,7 @@ body {
 }
 
 .nav-link:hover {
-    border-top: rgb(99, 0, 0) 2px solid;
+    border-top: var(--primary-red) 2px solid;
     line-height: 1.3;
 }
 
@@ -56,6 +60,45 @@ body {
 
 #welcome-message {
     text-transform: uppercase;
-    color:rgb(99, 0, 0);
-    font-size: 4rem;
+    color: var(--primary-red);
+    font-size: 5rem;
+    text-shadow: 2px 1px 1px silver;
+}
+
+#cv {
+    width: 225px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+    color: red;
+    border: 1px solid red;
+    padding: .8rem 1.2rem;
+    border-radius: .3rem;
+    background: rgb(0, 0, 63);
+    box-shadow: 1px 1px 6px;
+    
+}
+
+#cv:hover {
+    background: navy;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 225px;
+}
+
+.social-media > a {
+    text-decoration: none;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    height: auto;
 }
