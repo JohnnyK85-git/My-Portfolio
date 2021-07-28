@@ -69,6 +69,7 @@ h1 {
 }
 
 #welcome-message {
+    margin-bottom: 30px;;
     border: none;
     text-transform: uppercase;
     color: var(--primary-red);
@@ -105,7 +106,7 @@ h1 {
 .social-media {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 225px;
 }
 
@@ -114,10 +115,16 @@ h1 {
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
+    padding: 20px 0;
     width: 50px;
-    height: auto;
+    color: white;
+    background: rgb(0, 0, 38);
+    border: 1px solid white;
+    border-radius: .3rem;
+}
+
+.fa:hover {
+    background: navy;
 }
 
 #projects-section {
