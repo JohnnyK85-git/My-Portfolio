@@ -47,7 +47,7 @@ body {
 h1 {
     font-size: 4rem;
     color: white;
-    padding: .5rem 0;
+    padding: .6rem 0 0;
     text-shadow: 1px 1px 1px darkblue;
     text-transform: uppercase;
     border-bottom: .085rem solid white;
@@ -65,12 +65,13 @@ h1 {
     align-items: center;
     justify-content: center;
     background: url(../images/web-development-abstract.jpg);
-    background-size: 100%;
+    background-size: cover;
 }
 
 #welcome-message {
     margin-bottom: 30px;;
     border: none;
+    padding-top: 0;
     text-transform: uppercase;
     color: var(--primary-red);
     font-size: 5rem;
@@ -127,6 +128,26 @@ h1 {
     background: navy;
 }
 
+#about-me-section {
+    background: url(../images/web-development-about.jpg); 
+    background-size: cover;
+}
+
 #projects-section {
     background:rgb(0, 0, 38);
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00004d;
+    padding-top: 30px;
+}
+
+.footer-content {
+    color: white;
 }
