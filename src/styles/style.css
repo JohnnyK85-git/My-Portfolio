@@ -160,11 +160,34 @@ h1 {
 
 .contact-item {
     width: 30vw;
-    height: 50vh;
+    height: 25rem;
     background-color:rgb(0, 0, 38);
 }
 
+address {
+    position: relative;
+    margin: auto;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-size: 1.5vw;
+}
 
+.address-paragraph {
+    padding: 1rem;
+    padding-left: 2rem;
+}
+
+.material-icons {
+    font-size: 1.5vw !important;
+}
+
+.contact-item > h2 {
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
 
 
 
