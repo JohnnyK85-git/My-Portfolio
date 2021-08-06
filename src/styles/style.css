@@ -184,11 +184,40 @@ address {
 }
 
 .contact-item > h2 {
+    margin: 0;
+    padding: 2vh;
     color: white;
     font-size: 2rem;
     text-transform: uppercase;
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    margin: 0 auto 1rem auto;
+}
+
+#contact-form-button {
+    cursor: pointer;
+    width: 50%;
+    margin: 0 auto;
+    background: navy;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    padding: 7px 0;
+    border: 1px solid grey;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px rgb(78, 136, 153);
+}
+
+#contact-form-button:hover {
+    text-shadow: .5px .5px .5px white;
+    box-shadow: 1px 1px 7px rgb(78, 136, 153);
+}
 
 
 footer {
