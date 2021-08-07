@@ -162,6 +162,8 @@ h1 {
     width: 30vw;
     height: 25rem;
     background-color:rgb(0, 0, 38);
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px 3px blue;
 }
 
 address {
@@ -198,6 +200,15 @@ address {
 
 .form-input {
     margin: 0 auto 1rem auto;
+    width: 75%;
+    font-size: large;
+    border-radius: 4px;
+}
+
+#form-textarea {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 25px;
 }
 
 #contact-form-button {
