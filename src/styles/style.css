@@ -7,6 +7,13 @@ body {
     font-family: 'Inconsolata', monospace;
 }
 
+.material-icons {
+    font-size: 1.5vw !important;
+    vertical-align: middle;
+}
+
+/* Top Navbar */
+
 #navbar{
     display: flex;
     justify-content: flex-end;
@@ -58,6 +65,8 @@ h1 {
     margin: -8px;
     height: 100vh;
 }
+
+/* Home Section */
 
 #home-section {
     display: flex;
@@ -138,7 +147,38 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 90vw;
+    margin: 10% 5%;
 }
+
+.picture {
+    padding: 2rem;
+    background:rgba(0, 0, 38, 0.85);
+    box-shadow: 0 0 2px 3px rgb(111, 185, 255);
+    border-radius: .5rem;
+}
+
+.picture > img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#picture-name {
+    color: white;
+}
+
+#picture-profession {
+    color: red;
+}
+
+.about-info {
+    text-align: left;
+}
+
+
+
+
 
 #projects-section {
     background:rgb(0, 0, 38);
@@ -181,10 +221,6 @@ address {
     padding-left: 2rem;
 }
 
-.material-icons {
-    font-size: 1.5vw !important;
-}
-
 .contact-item > h2 {
     margin: 0;
     padding: 2vh;
@@ -206,9 +242,11 @@ address {
 }
 
 #form-textarea {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    height: 25px;
+    height: 10rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    resize: none;
+    box-shadow: .4px 0px 1px 1px grey;
 }
 
 #contact-form-button {
