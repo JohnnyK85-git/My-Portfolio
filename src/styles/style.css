@@ -174,8 +174,16 @@ h1 {
 
 .about-info {
     text-align: left;
+    margin-left: 3rem;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(0, 0, 38);
+    text-shadow: 1px 1px 1px rgb(105, 105, 255);
 }
 
+.material-icons.about {
+    color: red;
+}
 
 
 
