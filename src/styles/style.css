@@ -2,6 +2,10 @@
     --primary-red: rgb(99, 0, 0);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     text-align: center;
     font-family: 'Inconsolata', monospace;
@@ -185,6 +189,46 @@ h1 {
     color: red;
 }
 
+
+
+#skills-section {
+    background: url(../images/ITSkillsBackground.jpeg);
+}
+
+.skills-content {
+    display: flex;
+    flex-direction: row;
+    margin: 15vh 15vw;
+    justify-content: space-between;
+}
+
+#skill-set-title {
+    color: rgb(238, 38, 38);
+    font-size: xx-large;
+    text-shadow: 1px 1px 1px blue;
+}
+
+.skills-meter {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-meter > label {
+    text-align: left;
+    color: white;
+    font-family: karantina;
+    font-weight: 900;
+    padding: .8rem 0;
+}
+
+
+.skills-container-image > img {
+    width: 30rem;
+    height: auto;
+    border: 2px solid navy;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 2px rgb(33, 103, 255);
+}
 
 
 
